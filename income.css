@@ -1,0 +1,105 @@
+.guessMovement figure {
+    width: 100%;
+    max-width: 635px;
+    margin: 0 auto;
+}
+
+.guessMovement figure .instruction_div {
+    max-width: 635px;
+    margin: 0 auto;
+    line-height: 1.5rem;
+    display: flex;
+}
+
+.guessMovement figure .instruction_div img {
+    width: 36px;
+    height: 36px;
+    margin: 0;
+}
+
+.guessMovement figure .instruction_div img .instruction {
+    line-height: 1.2;
+    margin: 0 0 1rem 10px;
+}
+
+.guessMovement .warningMsg {
+    visibility:hidden;
+    max-width: 635px;
+    width: 100%;
+    background-color: #FFFFE0;
+    font-size: 0.8em;
+    line-height: 2.78em;
+    text-align: center;
+    margin :5% auto 2%;
+}
+
+.guessMovement .noDisplay {
+    visibility: hidden;
+}
+
+.guessMovement .guess_svg rect.selection {
+    pointer-events: none;
+}
+
+.guessMovement .guess_svg .axis {
+    pointer-events: none;
+}
+
+.guessMovement .guess_svg .axis text {
+    font-size: 14px;
+    color: #828282;
+}
+
+.guessMovement .guess_svg .tick text {
+    font-size: 12px;
+}
+
+.guessMovement .guess_svg .axisTitle {
+    color:#4F4F4F;
+    font-weight: 700;
+}
+
+.guessMovement .guess_svg .axis--x line , .guessMovement .guess_svg .axis--x  path{
+    display: none;
+}
+
+.guessMovement .guess_svg .axis--y {
+    display: none;
+}
+
+.guessMovement .guess_svg .axis--y line {
+    stroke:  #E6E6E6;
+}
+
+.guessMovement .answerBar{
+    fill: rgba(0, 0, 0, 0.5);
+}
+
+.guessMovement .answerBarLabel {
+    font-size: 14px;
+    color: #828282;
+    text-anchor: middle;
+}
+
+.guessMovement  .submitBtn {
+
+	text-transform: uppercase;
+	padding: 1.2rem 1.5rem;
+	font-weight: 700;
+	display: block;
+	margin: 0 auto;
+	background-color: #008577;
+	color: #fff;
+	border-radius: 3.75rem;
+}
+.guessMovement  .submitBtn:hover {
+    background-color: #007367;
+}        
+
+
+@media screen and (max-width: 649px){
+	.guessMovement {
+		padding-left: 1rem;
+        padding-right: 1rem;
+    }
+} 
