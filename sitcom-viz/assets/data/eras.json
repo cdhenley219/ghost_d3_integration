@@ -1,0 +1,40 @@
+{
+    "eras": [
+        {
+            "name": "TV Minstrelsy",
+            "description": "TV Minstrelsy desc",
+            "start_year": 1950,
+            "end_year": 1953
+        },
+        {
+            "name": "Nonrecognition",
+            "description": "Nonrecognition desc",
+            "start_year": 1954,
+            "end_year": 1967
+        },
+        {
+            "name": "Assimilationist",
+            "description": "Assimilationist desc",
+            "start_year": 1968,
+            "end_year": 1971
+        },
+        {
+            "name": "The Lear Era: Ridiculed Black Subjectivity and Social Relevancy",
+            "description": "Lear Era desc",
+            "start_year": 1972,
+            "end_year": 1983
+        },
+        {
+            "name": "The Cosby Era: Diversity and Family",
+            "description": "Cosby Era desc",
+            "start_year": 1984,
+            "end_year": 1989
+        },
+        {
+            "name": "Neo-Minstrelsy",
+            "description": "Neo-Minstrelsy desc",
+            "start_year": 1990,
+            "end_year": 2020
+        }
+    ]
+}
